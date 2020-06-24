@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: it.auron:mecard-parser:1.1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fc126a67d793365e19746d142f8a7bd/jetified-mecard-parser-1.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6fc126a67d793365e19746d142f8a7bd/jetified-mecard-parser-1.1.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.auron/mecard-parser/1.1.3/9e52ce24f8fe6f31dd33c780e8626b777062007a/mecard-parser-1.1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.auron/mecard-parser/1.1.3/e194638f295d5ab4a29d2ab072826ef26c24452c/mecard-parser-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

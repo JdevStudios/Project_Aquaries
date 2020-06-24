@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.4ert:audioview:1.4.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd660f24fa028c40a78c4e6794ebc818/jetified-audioview-1.4.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd660f24fa028c40a78c4e6794ebc818/jetified-audioview-1.4.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.4ert/audioview/1.4.5/80a6d9fdcfb2106035bdb4ff68dcc57e3de7e75a/audioview-1.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.4ert/audioview/1.4.5/947afe3d5607acf7f653a04c9f4531c6165d9ed0/audioview-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

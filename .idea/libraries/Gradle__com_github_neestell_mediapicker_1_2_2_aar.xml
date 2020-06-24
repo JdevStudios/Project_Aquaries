@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.neestell:mediapicker:1.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07e66a8065d2ede31ca1d4665d949b40/jetified-mediapicker-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07e66a8065d2ede31ca1d4665d949b40/jetified-mediapicker-1.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.neestell/mediapicker/1.2.2/38c788e561c58c0518cc15d63b9758782f8220af/mediapicker-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.neestell/mediapicker/1.2.2/2ffe22973811a70f06fec70a69f5f6250df38dac/mediapicker-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

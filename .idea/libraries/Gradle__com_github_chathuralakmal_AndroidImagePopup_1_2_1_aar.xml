@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chathuralakmal:AndroidImagePopup:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/196b40808c1525c867bc5cae41eef65f/jetified-AndroidImagePopup-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/196b40808c1525c867bc5cae41eef65f/jetified-AndroidImagePopup-1.2.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chathuralakmal/AndroidImagePopup/1.2.1/504721625a51902d0b37c370735aa372d7a7600f/AndroidImagePopup-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

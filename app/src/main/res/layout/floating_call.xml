@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_voice_chat_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:showOnLockScreen="true"
+    tools:context=".calls.CallingActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+
+        tools:ignore="UselessParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- this is the collapsed layout -->
+        <RelativeLayout
+            android:id="@+id/layoutCollapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/collapsed_iv"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_circle_background_color="@color/colorPrimaryDark"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/buttonClose"
+                android:background="@color/red"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/close" />
+        </RelativeLayout>
+
+        <!-- this is the expanded layout -->
+        <LinearLayout
+            android:id="@+id/layoutExpanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#5B564E43"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/buttonSimplifiedCodingExpanded"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_circle_background_color="@color/colorPrimaryDark"
+                app:layout_constraintTop_toBottomOf="@+id/type" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/buttonSimplifiedCoding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="1dp"
+                    android:text="00:00"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/circleImageView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="some thing here"
+                    android:textSize="23sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="20"
+                            android:onClick="onLocalAudioMuteClicked"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/btn_unmute"
+                            android:id="@+id/btn_muted"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="20"
+                            android:onClick="onEncCallClicked"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/btn_end_call" />
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="20"
+                            android:onClick="onSwitchSpeakerphoneClicked"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/btn_speaker" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- this is the expanded layout -->
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

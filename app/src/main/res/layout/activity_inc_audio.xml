@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:showOnLockScreen="true"
+    android:layout_height="match_parent"
+    tools:context=".calls.IncCallActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.jgabrielfreitas.core.BlurImageView
+                    android:id="@+id/bg"
+                    app:radius="22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    />
+            </FrameLayout>
+        </RelativeLayout>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="@string/voice_call" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        app:civ_circle_background_color="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/status" />
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:text="@string/loading"
+        />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="60dp"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/btn_accept"
+        android:layout_alignParentStart="true"
+        android:layout_width="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerVertical="true"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_startcall"
+ />
+    <ImageButton
+        android:id="@+id/btn_reject"
+        android:layout_width="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_endcall"/>
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>

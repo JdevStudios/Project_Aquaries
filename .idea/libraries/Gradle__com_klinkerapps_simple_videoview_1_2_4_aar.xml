@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.klinkerapps:simple_videoview:1.2.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/251d1c3cd7ab6f95a45725309044c33a/jetified-simple_videoview-1.2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/251d1c3cd7ab6f95a45725309044c33a/jetified-simple_videoview-1.2.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.klinkerapps/simple_videoview/1.2.4/6c68a47cab57419d7ba75d87fbf490ea224a0453/simple_videoview-1.2.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.klinkerapps/simple_videoview/1.2.4/77b6326843c47ab61c823f396dd8093225ce81c2/simple_videoview-1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

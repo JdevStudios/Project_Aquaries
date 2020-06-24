@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 15
+        versionCode 1
+        versionName "0.3.3"
+        consumerProguardFiles 'proguard.txt'
+    }
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
+ext {
+    supportVersion = '27.1.1'
+    flexboxVersion = '1.0.0'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation "com.google.android:flexbox:$flexboxVersion"
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.vanniktech:emoji-ios:0.6.0'
+
+}
+repositories {
+    mavenCentral()
+}

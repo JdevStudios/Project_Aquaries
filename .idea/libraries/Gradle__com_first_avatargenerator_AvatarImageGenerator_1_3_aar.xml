@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.first.avatargenerator:AvatarImageGenerator:1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd1a37c7e71427a9f164e7f2962b16fa/jetified-AvatarImageGenerator-1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd1a37c7e71427a9f164e7f2962b16fa/jetified-AvatarImageGenerator-1.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.first.avatargenerator/AvatarImageGenerator/1.3/ba39f12b486286164065a2e2df69501a74101e54/AvatarImageGenerator-1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.first.avatargenerator/AvatarImageGenerator/1.3/1c975a543748940bcab0cbaf946ea066e83cbf56/AvatarImageGenerator-1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

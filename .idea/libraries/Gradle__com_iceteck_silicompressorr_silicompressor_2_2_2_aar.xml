@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.iceteck.silicompressorr:silicompressor:2.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8274abfb2db0ad8c860210f879740151/jetified-silicompressor-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8274abfb2db0ad8c860210f879740151/jetified-silicompressor-2.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8274abfb2db0ad8c860210f879740151/jetified-silicompressor-2.2.2/jars/libs/aspectjrt-1.7.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8274abfb2db0ad8c860210f879740151/jetified-silicompressor-2.2.2/jars/libs/isoparser-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.iceteck.silicompressorr/silicompressor/2.2.2/cd02a2f2a3c2eb195fc540cd61e652ded032cac6/silicompressor-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.iceteck.silicompressorr/silicompressor/2.2.2/419d678f6b3adcc6f5c037f0a8b7d941a31de472/silicompressor-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

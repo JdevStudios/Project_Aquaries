@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.tonnyl:light:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5f15a389661a3d29fcdaa013fdbcafb/jetified-light-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5f15a389661a3d29fcdaa013fdbcafb/jetified-light-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/light/1.0.0/e5ac97f0afee324d7e38d955c82343b64adf72fa/light-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/light/1.0.0/b2c9204cb0aadffe5f7ed9453cefa09e8cace579/light-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

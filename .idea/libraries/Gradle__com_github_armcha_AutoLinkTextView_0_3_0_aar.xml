@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.armcha:AutoLinkTextView:0.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cf22366551cf13a37876aed6ee87647/jetified-AutoLinkTextView-0.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2cf22366551cf13a37876aed6ee87647/jetified-AutoLinkTextView-0.3.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.armcha/AutoLinkTextView/0.3.0/d70a633657a6461f4f3781034a9619ee41e3fe4b/AutoLinkTextView-0.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.armcha/AutoLinkTextView/0.3.0/42c0b39be48bafb88651718b782d1f498b258012/AutoLinkTextView-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

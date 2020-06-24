@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.chemsgr.blu.auth.Verify">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:background="@drawable/gradient_1"
+        android:layout_height="270dp">
+        <androidx.viewpager.widget.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/verify"
+                android:textColor="@drawable/gradient_1"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:id="@+id/linlay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_login"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/code"
+                        android:textAllCaps="true"
+                        android:textColor="@drawable/gradient_1"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/et_bg_blue"
+                        android:id="@+id/verifyE"
+                        android:singleLine="true"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingStart="15dp"
+                        android:inputType="number"
+                        android:textColorHint="@color/colorPrimary"
+                        android:paddingEnd="15dp"
+                        android:textColor="@drawable/gradient_1"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:layout_below="@+id/linlay1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_blue"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="70dp"
+            android:text="@string/next"
+            android:id="@+id/nextV"
+            android:textAllCaps="false"
+            android:textColor="@drawable/gradient_1"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/linne"
+            android:id="@+id/tick"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@drawable/gradient_1"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/resend"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:tint="#4CAF50"
+            android:src="@drawable/ic_resend"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtR"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linne"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/resend"
+        android:textColor="@drawable/gradient_1" />
+</LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

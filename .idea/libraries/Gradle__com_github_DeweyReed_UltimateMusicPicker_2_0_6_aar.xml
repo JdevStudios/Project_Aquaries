@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.DeweyReed:UltimateMusicPicker:2.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2677f7e460b800861b09bc6d30b26d3/jetified-UltimateMusicPicker-2.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2677f7e460b800861b09bc6d30b26d3/jetified-UltimateMusicPicker-2.0.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.DeweyReed/UltimateMusicPicker/2.0.6/92069d4ff4159ecaf220ad229aea9d46007048f4/UltimateMusicPicker-2.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
